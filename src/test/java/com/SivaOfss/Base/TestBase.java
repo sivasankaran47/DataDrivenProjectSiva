@@ -58,6 +58,7 @@ public class TestBase {
 			driver= new ChromeDriver();
 		}
 		driver.get(config.getProperty("TestUrl"));
+		System.out.println("Testing");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		wait = new WebDriverWait(driver,10);

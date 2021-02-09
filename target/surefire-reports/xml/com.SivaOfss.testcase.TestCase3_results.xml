@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OpenAcc"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.654">
+  <properties />
+  
+  
+            <testcase name="openAcc" time="0.428" classname="com.SivaOfss.testcase.TestCase3" />
+                <testcase name="openAcc" time="0.226" classname="com.SivaOfss.testcase.TestCase3" />
+      
+</testsuite>

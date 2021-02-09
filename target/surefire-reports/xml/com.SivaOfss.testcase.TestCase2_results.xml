@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ADDCUSTTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.778">
+  <properties />
+  
+  
+            <testcase name="addCust" time="0.905" classname="com.SivaOfss.testcase.TestCase2" />
+                <testcase name="addCust" time="1.185" classname="com.SivaOfss.testcase.TestCase2" />
+                <testcase name="addCust" time="0.688" classname="com.SivaOfss.testcase.TestCase2" />
+      
+</testsuite>

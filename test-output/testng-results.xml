@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Sample" duration-ms="10760" started-at="2020-12-08T18:56:09 IST" finished-at="2020-12-08T18:56:20 IST">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="6245" started-at="2020-12-08T18:56:09 IST" finished-at="2020-12-08T18:56:15 IST">
+      <class name="com.SivaOfss.testcase.TestCase1">
+        <test-method status="PASS" signature="testcase()[pri:0, instance:com.SivaOfss.testcase.TestCase1@768fc0f2]" name="testcase" duration-ms="6182" started-at="2020-12-08T18:56:09 IST" finished-at="2020-12-08T18:56:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+      </class> <!-- com.SivaOfss.testcase.TestCase1 -->
+    </test> <!-- LoginTest -->
+    <test name="ADDCUSTTest" duration-ms="4472" started-at="2020-12-08T18:56:16 IST" finished-at="2020-12-08T18:56:20 IST">
+      <class name="com.SivaOfss.testcase.TestCase2">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SivaOfss.testcase.TestCase2@3f57bcad]" name="setUp" is-config="true" duration-ms="8034" started-at="2020-12-08T18:56:01 IST" finished-at="2020-12-08T18:56:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AddCust(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.SivaOfss.testcase.TestCase2@3f57bcad]" name="AddCust" duration-ms="4427" started-at="2020-12-08T18:56:16 IST" data-provider="getData" finished-at="2020-12-08T18:56:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Siva]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Natarajan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[628768.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCust -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SivaOfss.testcase.TestCase2@3f57bcad]" name="tearDown" is-config="true" duration-ms="1212" started-at="2020-12-08T18:56:20 IST" finished-at="2020-12-08T18:56:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SivaOfss.testcase.TestCase2 -->
+    </test> <!-- ADDCUSTTest -->
+  </suite> <!-- Data Driven Sample -->
+</testng-results>

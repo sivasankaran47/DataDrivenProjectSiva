@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[<a target="_blank" href=error.jpg><img scr=error.jpg height =100 width=100></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=error.jpg><img scr=error.jpg height =100 width=100></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=error.jpg><img scr=error.jpg height =100 width=100></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Data Driven Sample" duration-ms="7574" started-at="2020-12-28T21:03:51 IST" finished-at="2020-12-28T21:03:59 IST">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="3895" started-at="2020-12-28T21:03:51 IST" finished-at="2020-12-28T21:03:55 IST">
+      <class name="com.SivaOfss.testcase.TestCase1">
+        <test-method status="PASS" signature="testcase()[pri:0, instance:com.SivaOfss.testcase.TestCase1@784c3487]" name="testcase" duration-ms="3256" started-at="2020-12-28T21:03:51 IST" finished-at="2020-12-28T21:03:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+      </class> <!-- com.SivaOfss.testcase.TestCase1 -->
+    </test> <!-- LoginTest -->
+    <test name="ADDCUSTTest" duration-ms="2889" started-at="2020-12-28T21:03:55 IST" finished-at="2020-12-28T21:03:58 IST">
+      <class name="com.SivaOfss.testcase.TestCase2">
+        <test-method status="PASS" signature="addCust(java.util.Hashtable)[pri:0, instance:com.SivaOfss.testcase.TestCase2@2a5b3fee]" name="addCust" duration-ms="905" started-at="2020-12-28T21:03:55 IST" data-provider="dp" finished-at="2020-12-28T21:03:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Siva, LastName=Natarajan, AlertMsg=Customer added successfully, PinCode=628768.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=error.jpg><img scr=error.jpg height =100 width=100></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method status="PASS" signature="addCust(java.util.Hashtable)[pri:0, instance:com.SivaOfss.testcase.TestCase2@2a5b3fee]" name="addCust" duration-ms="1185" started-at="2020-12-28T21:03:56 IST" data-provider="dp" finished-at="2020-12-28T21:03:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Sankar, LastName=Natarajan, AlertMsg=Customer added successfully, PinCode=628001.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=error.jpg><img scr=error.jpg height =100 width=100></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method status="PASS" signature="addCust(java.util.Hashtable)[pri:0, instance:com.SivaOfss.testcase.TestCase2@2a5b3fee]" name="addCust" duration-ms="688" started-at="2020-12-28T21:03:58 IST" data-provider="dp" finished-at="2020-12-28T21:03:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{FirstName=Natarajan, LastName=Nallasivam, AlertMsg=Customer added successfully, PinCode=628001.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a target="_blank" href=error.jpg><img scr=error.jpg height =100 width=100></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+      </class> <!-- com.SivaOfss.testcase.TestCase2 -->
+    </test> <!-- ADDCUSTTest -->
+    <test name="OpenAcc" duration-ms="687" started-at="2020-12-28T21:03:58 IST" finished-at="2020-12-28T21:03:59 IST">
+      <class name="com.SivaOfss.testcase.TestCase3">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.SivaOfss.testcase.TestCase3@119020fb]" name="setUp" is-config="true" duration-ms="6187" started-at="2020-12-28T21:03:45 IST" finished-at="2020-12-28T21:03:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openAcc(java.util.Hashtable)[pri:0, instance:com.SivaOfss.testcase.TestCase3@119020fb]" name="openAcc" duration-ms="428" started-at="2020-12-28T21:03:58 IST" data-provider="dp" finished-at="2020-12-28T21:03:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Curreny=Dollar, AlertMsg=Account created , Customer=Hermoine Granger}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method status="PASS" signature="openAcc(java.util.Hashtable)[pri:0, instance:com.SivaOfss.testcase.TestCase3@119020fb]" name="openAcc" duration-ms="226" started-at="2020-12-28T21:03:59 IST" data-provider="dp" finished-at="2020-12-28T21:03:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Curreny=Rupee, AlertMsg=Account created , Customer=Harry Potter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAcc -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.SivaOfss.testcase.TestCase3@119020fb]" name="tearDown" is-config="true" duration-ms="1147" started-at="2020-12-28T21:03:59 IST" finished-at="2020-12-28T21:04:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SivaOfss.testcase.TestCase3 -->
+    </test> <!-- OpenAcc -->
+  </suite> <!-- Data Driven Sample -->
+</testng-results>
